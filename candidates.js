@@ -40,9 +40,9 @@ debugger;
 
         let dif = personA - personB;
         let createSec = document.createElement('section');
-        createSec.style.marginTop = '20vh';
+        createSec.style.marginTop = '5vh';
         let createH2 = document.createElement('h2');
-        createH2.style.padding = "10vh";
+        createH2.style.padding = "5vh";
         createH2.style.color = "#fff";
         createH2.style.fontSize = "1.5em";
         createSec.style.background = "#f0a";
@@ -55,9 +55,9 @@ debugger;
     } else if(personB > personA){
         let dif = personB - personA;
         let createSec = document.createElement('section');
-        createSec.style.marginTop = '20vh';
+        createSec.style.marginTop = '5vh';
         let createH2 = document.createElement('h2');
-        createH2.style.padding = "10vh";
+        createH2.style.padding = "5vh";
         createH2.style.color = "#fff";
         createH2.style.fontSize = "1.5em";
         createSec.style.background = "#080";
@@ -69,9 +69,9 @@ debugger;
         return createSec;
     } else {
         let createSec = document.createElement('section');
-        createSec.style.marginTop = '20vh';
+        createSec.style.marginTop = '5vh';
         let createH2 = document.createElement('h2');
-        createH2.style.padding = "10vh";
+        createH2.style.padding = "5vh";
         createH2.style.color = "#fff";
         createH2.style.fontSize = "1.5em";
         createSec.style.background = "#f00";
