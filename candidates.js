@@ -84,4 +84,4 @@ debugger;
     }
 }
 
-console.log('the data from state: '+ state); // I want to log the state with its updated properties value but it logs [Object Object]
+console.log('the data from state: ', state); // I want to log the state with its updated properties value but it logs [Object Object]
