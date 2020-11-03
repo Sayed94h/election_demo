@@ -6,8 +6,8 @@ let personA = 0;
 let personB = 0;
 
 let state = {
-    A: 0,
-    B: 0,
+    A: "",
+    B: "",
     winner: ""
 
 };
@@ -29,7 +29,7 @@ state.A = personA;
 state.B = personB;
 function displayVots(){
 
-    alert('personA vots: '+ personA + '\n'+ 'personB vots: '+ personB);
+    alert('personA votes: '+ personA + '\n'+ 'personB votes: '+ personB);
 
 }
 
@@ -46,7 +46,7 @@ debugger;
         createH2.style.color = "#fff";
         createH2.style.fontSize = "1.5em";
         createSec.style.background = "#f0a";
-        createH2.innerHTML = `PersonA won the election with ${personA} vots which is ${dif} times more than PersonB!`;
+        createH2.innerHTML = `PersonA won the election with ${personA} votes which is ${dif} times more than PersonB!`;
        
         document.body.appendChild(createSec);
         createSec.appendChild(createH2);
@@ -61,7 +61,7 @@ debugger;
         createH2.style.color = "#fff";
         createH2.style.fontSize = "1.5em";
         createSec.style.background = "#080";
-        createH2.innerHTML = `PersonB won the election with ${personB} vots which is ${dif} times more than PersonA!`;
+        createH2.innerHTML = `PersonB won the election with ${personB} votes which is ${dif} times more than PersonA!`;
         
         document.body.appendChild(createSec);
         createSec.appendChild(createH2);
@@ -75,7 +75,7 @@ debugger;
         createH2.style.color = "#fff";
         createH2.style.fontSize = "1.5em";
         createSec.style.background = "#f00";
-        createH2.innerHTML = "Both have the same number of vots. So, we have to start a new election!";
+        createH2.innerHTML = "Both have the same number of votes. So, they have to start a new election!";
         
         document.body.appendChild(createSec);
         createSec.appendChild(createH2);
