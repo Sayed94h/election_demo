@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="auto">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css" />
     <title>Election 2020</title>
 </head>
-<body>
-    
-<header>
-    <h1>
-        This is a simple demo of voting application. With a simple change at the source code you can manipulate the result of the election.
-    </h1>
-    <h2>
-        Choose between PersonA and PersonB to whome you want to vote for!
-    </h2>
-    
-    </header>
-    
-    <div style="display: grid; grid-template-rows: auto auto auto auto; justify-content: space-around; margin: 10vh;">
-        <button onclick="personAVot()" style="margin-bottom: 5vh;">PersonA</button>
-        <button onclick="personBVot()" style="margin-bottom: 5vh;">PersonB</button>
-        <button onclick="displayVots()" style="margin-bottom: 5vh;">Display Vots</button>
-        <button onclick="winner()" style="margin-bottom: 5vh;">Winner is</button>
-    </div>
 
+<body>
+
+    <header>
+        <h1>
+            This is a simple demo of voting application. <br> With a simple change at the source code you can manipulate
+            the
+            result of the election. Do you see? ;-)
+        </h1>
+        <hr>
+        <h2>
+            Choose PersonA or PersonB to whom you want to vote for!
+        </h2>
+
+    </header>
+    <hr>
+    <div>
+        <button onclick="personAVot()" class="btn a">PersonA</button>
+        <button onclick="personBVot()" class="btn b">PersonB</button>
+        <button onclick="displayVots()" class="btn dis">Display Votes</button>
+        <button onclick="winner()" class="btn win">Winner is</button>
+    </div>
+    <hr>
     <script src="./candidates.js"></script>
 </body>
+
 </html>

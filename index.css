@@ -1,8 +1,47 @@
 body {
-margin: 0;
+	margin: 0;
 }
 
-header * {
+header {
 	text-align: center;
-	margin: 0;
+	margin-left: 15%;
+	width: 70%;
+}
+
+header h1 {
+	color: blue;
+}
+
+header h2 {
+	color: red;
+}
+
+div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5vh;
+}
+
+div button {
+	width: 15%;
+	height: 9vh;
+	background-color: #a106b6;
+	color: #fff;
+	font-size: 2vw;
+	cursor: pointer;
+	margin-bottom: 5vh;
+}
+
+div button.a:hover {
+	background-color: green;
+}
+div button.b:hover {
+	background-color: darkorange;
+}
+div button.dis:hover {
+	background-color: rgb(42, 211, 197);
+}
+div button.win:hover {
+	background-color: rgb(228, 24, 24);
 }
